@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Affordable internet starting at $10/month for qualifying households. No contracts, unlimited data on T-Mobile&#039;s network.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Freewave.Online">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Low-Income Internet - Freewave.Online">
+<meta property="og:description" content="Fast, affordable, reliable internet and IT services. Expert support you can count on.">
+<meta property="og:url" content="https://freewave.online/">
+<meta property="og:image" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:secure_url" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Freewave.Online — Fast, affordable, reliable internet and IT services">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Low-Income Internet - Freewave.Online">
+<meta name="twitter:description" content="Fast, affordable, reliable internet and IT services.">
+<meta name="twitter:image" content="https://freewave.online/og-image.jpg">
+
+<title>Low-Income Internet - Freewave.Online</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Freewave.Online",
+  "legalName": "Carrot & Flower LLC",
+  "url": "https://freewave.online",
+  "logo": "https://freewave.online/og-image.jpg",
+  "description": "Affordable internet, networking, and IT support services. Remote support nationwide, onsite service in San Juan County, WA.",
+  "telephone": "321-222-0889",
+  "email": "info@freewave.online",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orcas",
+    "addressRegion": "WA",
+    "postalCode": "98280",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "San Juan County, WA"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "sameAs": []
+}
+</script>
+<link rel="icon" href="/favicon.ico" sizes="32x32 48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="styles.css?v=1772939133">
+<style>
+.hero {
+  position: relative;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: #0b1f35;
+  color: white;
+}
+/* Gradient depth */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 60%, rgba(46,163,242,.25), transparent 50%),
+    linear-gradient(135deg, #0d2a4a 0%, #123e6b 50%, #0b1f35 100%);
+  z-index: 1;
+}
+/* Subtle network mesh */
+.hero-mesh {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255,255,255,.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: .15;
+  animation: drift 40s linear infinite;
+  z-index: 2;
+}
+@keyframes drift {
+  from { transform: translate(0,0); }
+  to { transform: translate(-200px,-200px); }
+}
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.logo-mark {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 50px;
+}
+.logo-mark span {
+  width: 10px;
+  background: linear-gradient(180deg, #7fd0ff, #2ea3f2);
+  border-radius: 3px;
+  transform-origin: bottom;
+  opacity: 0;
+  animation: cellBar 2s ease-out forwards;
+}
+.logo-mark span:nth-child(1) { height: 15px; animation-delay: 0s; }
+.logo-mark span:nth-child(2) { height: 25px; animation-delay: .15s; }
+.logo-mark span:nth-child(3) { height: 35px; animation-delay: .3s; }
+.logo-mark span:nth-child(4) { height: 50px; animation-delay: .45s; }
+@keyframes cellBar {
+  0% { opacity: 0; transform: scaleY(0); }
+  50% { opacity: 1; transform: scaleY(1.1); box-shadow: 0 0 15px rgba(127,208,255,.8); }
+  100% { opacity: .9; transform: scaleY(1); }
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1px;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: white;
+}
+.dot {
+  color: #7fd0ff;
+}
+.tagline {
+  margin-top: 12px;
+  font-size: 18px;
+  opacity: .85;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 144px;
+    padding: 8px 20px 0;
+  }
+  .hero h1 { font-size: 32px; }
+  .tagline { font-size: 16px; }
+  .logo-mark { height: 35px; gap: 5px; }
+  .logo-mark span { width: 7px; }
+  .logo-mark span:nth-child(1) { height: 10px; }
+  .logo-mark span:nth-child(2) { height: 18px; }
+  .logo-mark span:nth-child(3) { height: 26px; }
+  .logo-mark span:nth-child(4) { height: 35px; }
+  .brand { gap: 14px; }
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-mesh"></div>
+  <div class="hero-content">
+    <div class="brand">
+      <div class="logo-mark">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Freewave<span class="dot">.Online</span></h1>
+    </div>
+    <p class="tagline">Fast. Affordable. Reliable.</p>
+  </div>
+</section>
+<nav aria-label="Main navigation">
+<ul role="list">
+  <li style="position:relative;">
+    <button type="button" id="internet-btn" aria-haspopup="true" aria-expanded="false" class="a" aria-current="true">Internet</button>
+    <ul id="internet-dd" class="dropdown" role="menu">
+      <li role="none"><a href="/" role="menuitem">Residential</a></li>
+      <li role="none"><a href="low-income.html" role="menuitem">Low-Income</a></li>
+      <li role="none"><a href="backup.html" role="menuitem">Backup</a></li>
+      <li role="none"><a href="business.html" role="menuitem">Business</a></li>
+    </ul>
+  </li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="cellphone.html" class="">Cellphone</a></li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="support.html" class="">Support</a></li>
+</ul>
+</nav>
+<script src="nav.js"></script>
+<style>
+.c:hover { transform: none; box-shadow: 0 8px 25px rgba(0,0,0,.1); }
+.c:hover::before { transform: scaleX(0); }
+.li-section { max-width: 820px; margin: 0 auto; }
+.li-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  margin-bottom: 1.5rem;
+}
+.li-card h3 { font-size: 1.2rem; margin: 0 0 0.8rem; color: #1C1F24; }
+.li-card p { margin: 0 0 0.8rem; line-height: 1.7; color: #5F6B7A; font-size: 0.95rem; }
+.li-card ul { margin: 0.5rem 0 1rem 1.5rem; }
+.li-card li { list-style: disc; padding-left: 0.25rem; margin: 0.4rem 0; color: #5F6B7A; font-size: 0.95rem; line-height: 1.6; }
+.li-card li::before { content: none; }
+.li-highlight {
+  background: #e8f5e9;
+  border: 1.5px solid #a5d6a7;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+.li-highlight p { color: #2e7d32; margin: 0; font-weight: 600; }
+.li-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.li-compare-item {
+  background: #f5f7fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.li-compare-item .name { font-weight: 700; color: #1C1F24; margin-bottom: 0.3rem; }
+.li-compare-item .price { font-size: 1.3rem; font-weight: 900; color: #1E4E8C; }
+.li-compare-item .price small { font-size: 0.8rem; font-weight: 400; color: #5F6B7A; }
+.li-compare-item .detail { font-size: 0.85rem; color: #5F6B7A; margin-top: 0.3rem; }
+@media (max-width: 768px) {
+  .li-compare { grid-template-columns: 1fr; }
+}
+</style>
+
+<main id="main-content">
+<h2>Low-Income Internet</h2>
+
+<div class="li-section">
+
+<div class="li-card">
+  <div class="li-highlight">
+    <p>Unlimited internet starting at $10/month — no contracts, no credit checks, no hidden fees.</p>
+  </div>
+
+  <p>If paying for internet is a stretch, there are programs that can get you connected for a fraction of the usual cost. These aren't second-rate connections — they run on the same T-Mobile network as plans that cost 4-5x more. The only difference is the price.</p>
+  <p>Freewave.Online doesn't sell these plans directly. We point you to the right program, help you figure out if you qualify, and provide support if you need help getting set up.</p>
+</div>
+
+<div class="li-card">
+  <h3>Option 1: PCS Wireless — $10/month</h3>
+
+  <div class="li-compare">
+    <div class="li-compare-item">
+      <div class="name">PCS Low-Cost Internet</div>
+      <div class="price">$10<small>/mo</small></div>
+      <div class="detail">Unlimited data on T-Mobile</div>
+    </div>
+    <div class="li-compare-item">
+      <div class="name">Typical Home Internet</div>
+      <div class="price">$50–80<small>/mo</small></div>
+      <div class="detail">Same network, 5–8x the price</div>
+    </div>
+  </div>
+
+  <p><strong>What you get:</strong></p>
+  <ul>
+    <li>Unlimited data on T-Mobile's 4G/5G network</li>
+    <li>Hotspot device included (or bring your own)</li>
+    <li>No contracts — cancel anytime</li>
+    <li>No credit check required</li>
+  </ul>
+
+  <p><strong>Who qualifies:</strong></p>
+  <ul>
+    <li>Households receiving government assistance (SNAP, Medicaid, SSI, TANF, WIC, Section 8, free school lunch, Pell Grant, veterans pension, etc.)</li>
+    <li>Household income at or below 200% of the federal poverty guidelines</li>
+    <li>You'll need to verify eligibility during signup</li>
+  </ul>
+
+  <p style="margin-top:1.2rem;">
+    <a href="https://www.pcsforpeople.org/internet/" target="_blank" rel="noopener noreferrer" class="b">Check Eligibility &amp; Sign Up</a>
+  </p>
+</div>
+
+<div class="li-card">
+  <h3>Option 2: Mobile Citizen — $10/month (Nonprofits)</h3>
+
+  <p>If you run or work at a nonprofit, school, or library, Mobile Citizen offers T-Mobile internet at $10/month for qualifying organizations.</p>
+
+  <ul>
+    <li>Unlimited data on T-Mobile's network</li>
+    <li>Available to 501(c)(3) nonprofits, schools, and libraries</li>
+    <li>Can provide internet to staff, clients, or community members</li>
+  </ul>
+
+  <p style="margin-top:1.2rem;">
+    <a href="https://www.mobilecitizen.org/service/affordable-wireless-internet/" target="_blank" rel="noopener noreferrer" class="b">Learn More at Mobile Citizen</a>
+  </p>
+</div>
+
+<div class="li-card">
+  <h3>Not Sure If You Qualify?</h3>
+  <p>If you're not sure whether you're eligible, or if these programs aren't available in your area, reach out. We can help you find the cheapest option that works for your situation — even if it's not one of these programs.</p>
+
+  <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem;">
+    <a href="contact.html" class="b secondary">Contact Us for Help</a>
+    <a href="/" class="b" style="background:#5F6B7A;">Compare All Internet Options</a>
+  </div>
+</div>
+
+<p style="font-size:0.82rem;color:#999;text-align:center;margin-top:0.5rem;">
+  Freewave.Online may receive referral credit when you sign up through links on this page. This doesn't affect your price. See our <a href="terms.html" style="color:#2EA8FF;">Terms of Service</a> for details.
+</p>
+
+</div>
+</main>
+<footer>
+<p>© 2026 Freewave.Online. All rights reserved. | <a href="about.html">About</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact Us</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+</footer>
+<script>
+function freewaveTurnstileOk() {}
+// Prevent Turnstile (or any script) from calling form.submit() and bypassing the JS listener
+document.querySelectorAll('form').forEach(function(f) {
+  if (f.querySelector('.cf-turnstile')) { f.submit = function() {}; }
+});
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef92eda58b1c878',t:'MTc3Njc0MDg5Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

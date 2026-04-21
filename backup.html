@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Backup internet solutions with automatic failover. Stay connected when your primary connection drops.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Freewave.Online">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Backup Internet - Freewave.Online">
+<meta property="og:description" content="Fast, affordable, reliable internet and IT services. Expert support you can count on.">
+<meta property="og:url" content="https://freewave.online/">
+<meta property="og:image" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:secure_url" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Freewave.Online — Fast, affordable, reliable internet and IT services">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Backup Internet - Freewave.Online">
+<meta name="twitter:description" content="Fast, affordable, reliable internet and IT services.">
+<meta name="twitter:image" content="https://freewave.online/og-image.jpg">
+
+<title>Backup Internet - Freewave.Online</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Freewave.Online",
+  "legalName": "Carrot & Flower LLC",
+  "url": "https://freewave.online",
+  "logo": "https://freewave.online/og-image.jpg",
+  "description": "Affordable internet, networking, and IT support services. Remote support nationwide, onsite service in San Juan County, WA.",
+  "telephone": "321-222-0889",
+  "email": "info@freewave.online",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orcas",
+    "addressRegion": "WA",
+    "postalCode": "98280",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "San Juan County, WA"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "sameAs": []
+}
+</script>
+<link rel="icon" href="/favicon.ico" sizes="32x32 48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="styles.css?v=1772939133">
+<style>
+.hero {
+  position: relative;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: #0b1f35;
+  color: white;
+}
+/* Gradient depth */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 60%, rgba(46,163,242,.25), transparent 50%),
+    linear-gradient(135deg, #0d2a4a 0%, #123e6b 50%, #0b1f35 100%);
+  z-index: 1;
+}
+/* Subtle network mesh */
+.hero-mesh {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255,255,255,.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: .15;
+  animation: drift 40s linear infinite;
+  z-index: 2;
+}
+@keyframes drift {
+  from { transform: translate(0,0); }
+  to { transform: translate(-200px,-200px); }
+}
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.logo-mark {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 50px;
+}
+.logo-mark span {
+  width: 10px;
+  background: linear-gradient(180deg, #7fd0ff, #2ea3f2);
+  border-radius: 3px;
+  transform-origin: bottom;
+  opacity: 0;
+  animation: cellBar 2s ease-out forwards;
+}
+.logo-mark span:nth-child(1) { height: 15px; animation-delay: 0s; }
+.logo-mark span:nth-child(2) { height: 25px; animation-delay: .15s; }
+.logo-mark span:nth-child(3) { height: 35px; animation-delay: .3s; }
+.logo-mark span:nth-child(4) { height: 50px; animation-delay: .45s; }
+@keyframes cellBar {
+  0% { opacity: 0; transform: scaleY(0); }
+  50% { opacity: 1; transform: scaleY(1.1); box-shadow: 0 0 15px rgba(127,208,255,.8); }
+  100% { opacity: .9; transform: scaleY(1); }
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1px;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: white;
+}
+.dot {
+  color: #7fd0ff;
+}
+.tagline {
+  margin-top: 12px;
+  font-size: 18px;
+  opacity: .85;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 144px;
+    padding: 8px 20px 0;
+  }
+  .hero h1 { font-size: 32px; }
+  .tagline { font-size: 16px; }
+  .logo-mark { height: 35px; gap: 5px; }
+  .logo-mark span { width: 7px; }
+  .logo-mark span:nth-child(1) { height: 10px; }
+  .logo-mark span:nth-child(2) { height: 18px; }
+  .logo-mark span:nth-child(3) { height: 26px; }
+  .logo-mark span:nth-child(4) { height: 35px; }
+  .brand { gap: 14px; }
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-mesh"></div>
+  <div class="hero-content">
+    <div class="brand">
+      <div class="logo-mark">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Freewave<span class="dot">.Online</span></h1>
+    </div>
+    <p class="tagline">Fast. Affordable. Reliable.</p>
+  </div>
+</section>
+<nav aria-label="Main navigation">
+<ul role="list">
+  <li style="position:relative;">
+    <button type="button" id="internet-btn" aria-haspopup="true" aria-expanded="false" class="a" aria-current="true">Internet</button>
+    <ul id="internet-dd" class="dropdown" role="menu">
+      <li role="none"><a href="/" role="menuitem">Residential</a></li>
+      <li role="none"><a href="low-income.html" role="menuitem">Low-Income</a></li>
+      <li role="none"><a href="backup.html" role="menuitem">Backup</a></li>
+      <li role="none"><a href="business.html" role="menuitem">Business</a></li>
+    </ul>
+  </li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="cellphone.html" class="">Cellphone</a></li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="support.html" class="">Support</a></li>
+</ul>
+</nav>
+<script src="nav.js"></script>
+<main id="main-content">
+<h2>Backup Internet</h2>
+<div class="p">
+<section class="c">
+<h3>Custom Backup Solution</h3>
+<p>Enterprise-grade failover with automatic switching</p>
+<ul>
+<li>Multi-provider bonding</li>
+<li>99.99% uptime target</li>
+<li>Real-time monitoring</li>
+<li>Priority setup &amp; support</li>
+</ul>
+<p>Contact for availability, pricing &amp; configuration</p>
+<a href="backup-quote.html" class="b">Get Quote</a>
+</section>
+</div>
+
+<h2>Recommended Hardware</h2>
+<div class="p">
+<section class="c">
+<h3>Peplink B One 5G</h3>
+<img src="Peplinkmultiwan.jpeg" alt="Peplink B One 5G Multi-WAN Router" width="700" height="433">
+<p class="pr">Multi-WAN Router</p>
+<ul><li>5G cellular connectivity</li><li>Dual-band Wi-Fi support</li><li>Automatic failover</li><li>SpeedFusion bandwidth bonding</li><li>Perfect for backup internet</li></ul>
+<a href="https://amzn.to/46s09Vd" target="_blank" rel="noopener noreferrer" class="b">View on Amazon</a>
+</section>
+</div>
+
+<p style="font-size:0.82rem;color:#999;text-align:center;margin-top:1.5rem;">
+  Some links on this page are referral or affiliate links. Freewave.Online may receive a commission at no extra cost to you. See our <a href="terms.html" style="color:#2EA8FF;">Terms</a> for details.
+</p>
+
+</main>
+<footer>
+<p>© 2026 Freewave.Online. All rights reserved. | <a href="about.html">About</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact Us</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+</footer>
+<script>
+function freewaveTurnstileOk() {}
+// Prevent Turnstile (or any script) from calling form.submit() and bypassing the JS listener
+document.querySelectorAll('form').forEach(function(f) {
+  if (f.querySelector('.cf-turnstile')) { f.submit = function() {}; }
+});
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef92ebb8a1ca6e4',t:'MTc3Njc0MDg4OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

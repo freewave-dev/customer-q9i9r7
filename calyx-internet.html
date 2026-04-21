@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Calyx Institute internet membership — unlimited data on the T-Mobile network. Prepaid plans, expert support.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Freewave.Online">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Calyx Internet - Freewave.Online">
+<meta property="og:description" content="Fast, affordable, reliable internet and IT services. Expert support you can count on.">
+<meta property="og:url" content="https://freewave.online/">
+<meta property="og:image" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:secure_url" content="https://freewave.online/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Freewave.Online — Fast, affordable, reliable internet and IT services">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calyx Internet - Freewave.Online">
+<meta name="twitter:description" content="Fast, affordable, reliable internet and IT services.">
+<meta name="twitter:image" content="https://freewave.online/og-image.jpg">
+
+<title>Calyx Internet - Freewave.Online</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Freewave.Online",
+  "legalName": "Carrot & Flower LLC",
+  "url": "https://freewave.online",
+  "logo": "https://freewave.online/og-image.jpg",
+  "description": "Affordable internet, networking, and IT support services. Remote support nationwide, onsite service in San Juan County, WA.",
+  "telephone": "321-222-0889",
+  "email": "info@freewave.online",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orcas",
+    "addressRegion": "WA",
+    "postalCode": "98280",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "San Juan County, WA"
+    },
+    {
+      "@type": "Country",
+      "name": "US"
+    }
+  ],
+  "priceRange": "$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "sameAs": []
+}
+</script>
+<link rel="icon" href="/favicon.ico" sizes="32x32 48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="styles.css?v=1772939133">
+<style>
+.hero {
+  position: relative;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: #0b1f35;
+  color: white;
+}
+/* Gradient depth */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 60%, rgba(46,163,242,.25), transparent 50%),
+    linear-gradient(135deg, #0d2a4a 0%, #123e6b 50%, #0b1f35 100%);
+  z-index: 1;
+}
+/* Subtle network mesh */
+.hero-mesh {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255,255,255,.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: .15;
+  animation: drift 40s linear infinite;
+  z-index: 2;
+}
+@keyframes drift {
+  from { transform: translate(0,0); }
+  to { transform: translate(-200px,-200px); }
+}
+.hero-content {
+  position: relative;
+  z-index: 3;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.logo-mark {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 50px;
+}
+.logo-mark span {
+  width: 10px;
+  background: linear-gradient(180deg, #7fd0ff, #2ea3f2);
+  border-radius: 3px;
+  transform-origin: bottom;
+  opacity: 0;
+  animation: cellBar 2s ease-out forwards;
+}
+.logo-mark span:nth-child(1) { height: 15px; animation-delay: 0s; }
+.logo-mark span:nth-child(2) { height: 25px; animation-delay: .15s; }
+.logo-mark span:nth-child(3) { height: 35px; animation-delay: .3s; }
+.logo-mark span:nth-child(4) { height: 50px; animation-delay: .45s; }
+@keyframes cellBar {
+  0% { opacity: 0; transform: scaleY(0); }
+  50% { opacity: 1; transform: scaleY(1.1); box-shadow: 0 0 15px rgba(127,208,255,.8); }
+  100% { opacity: .9; transform: scaleY(1); }
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1px;
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+  color: white;
+}
+.dot {
+  color: #7fd0ff;
+}
+.tagline {
+  margin-top: 12px;
+  font-size: 18px;
+  opacity: .85;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    height: 144px;
+    padding: 8px 20px 0;
+  }
+  .hero h1 { font-size: 32px; }
+  .tagline { font-size: 16px; }
+  .logo-mark { height: 35px; gap: 5px; }
+  .logo-mark span { width: 7px; }
+  .logo-mark span:nth-child(1) { height: 10px; }
+  .logo-mark span:nth-child(2) { height: 18px; }
+  .logo-mark span:nth-child(3) { height: 26px; }
+  .logo-mark span:nth-child(4) { height: 35px; }
+  .brand { gap: 14px; }
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-mesh"></div>
+  <div class="hero-content">
+    <div class="brand">
+      <div class="logo-mark">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Freewave<span class="dot">.Online</span></h1>
+    </div>
+    <p class="tagline">Fast. Affordable. Reliable.</p>
+  </div>
+</section>
+<nav aria-label="Main navigation">
+<ul role="list">
+  <li style="position:relative;">
+    <button type="button" id="internet-btn" aria-haspopup="true" aria-expanded="false" class="a" aria-current="true">Internet</button>
+    <ul id="internet-dd" class="dropdown" role="menu">
+      <li role="none"><a href="/" role="menuitem">Residential</a></li>
+      <li role="none"><a href="low-income.html" role="menuitem">Low-Income</a></li>
+      <li role="none"><a href="backup.html" role="menuitem">Backup</a></li>
+      <li role="none"><a href="business.html" role="menuitem">Business</a></li>
+    </ul>
+  </li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="cellphone.html" class="">Cellphone</a></li>
+  <li class="separator" role="presentation" aria-hidden="true">|</li>
+  <li><a href="support.html" class="">Support</a></li>
+</ul>
+</nav>
+<script src="nav.js"></script>
+<main id="main-content">
+<h2>Calyx Internet</h2>
+<div class="p">
+<section class="c" style="max-width: 800px; margin: 0 auto; text-align: left;">
+
+<!-- Pricing & Overview -->
+<div style="background: #F5F7FA; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; text-align: center;">
+<h3 style="margin-bottom: 0.5rem;">Unlimited Wireless Internet</h3>
+<p style="font-size: 0.9rem; color: #666; margin-bottom: 1rem;">Unlimited data on the T-Mobile network</p>
+<p class="pr" style="margin-bottom: 0.5rem;">As low as $41.67<small class="pm">/mo</small></p>
+<p style="font-size: 0.85rem; color: #888; margin-bottom: 0.5rem; font-style: italic;">Based on $500/year prepaid plan</p>
+<p style="font-size: 0.9rem; color: #666;">Multiple membership levels available - see plan comparison below</p>
+</div>
+
+<!-- Before You Order -->
+<details style="background: #fff; border: 2px solid #2EA8FF; border-radius: 8px; margin-bottom: 1.5rem; cursor: pointer;">
+<summary style="padding: 1.5rem; font-weight: 600; color: #1C1F24; font-size: 1.1rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s;">▶</span> 📋 Before You Order - Important Information
+</summary>
+<div style="padding: 0 1.5rem 1.5rem 1.5rem; border-top: 1px solid #E5E7EB; margin-top: -0.5rem; padding-top: 1rem;">
+
+<!-- Check T-Mobile Coverage -->
+<div style="margin-bottom: 1.5rem;">
+<h4 style="margin-bottom: 0.75rem; color: #1C1F24;">✓ Check T-Mobile Signal Strength & Run a Speed Test</h4>
+<p style="margin-bottom: 1rem; color: #666; line-height: 1.6;">
+Before ordering, test T-Mobile's wireless coverage at your location:
+</p>
+<ul style="margin-left: 1.5rem; margin-bottom: 1rem; color: #666; line-height: 1.8;">
+<li>If you currently have T-Mobile cell service, check your signal strength</li>
+<li><strong>Run a speed test</strong> using the Speedtest app on your T-Mobile phone to see actual performance at your location
+<div style="display: flex; gap: 0.75rem; margin-top: 0.5rem; flex-wrap: wrap;">
+<a href="https://apps.apple.com/us/app/speedtest-by-ookla/id300704847" target="_blank" rel="noopener noreferrer">
+<img src="img-app-store.svg" alt="Download on the App Store" style="height: 40px;">
+</a>
+<a href="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest" target="_blank" rel="noopener noreferrer">
+<img src="img-google-play.png" alt="Get it on Google Play" style="height: 40px;">
+</a>
+</div>
+</li>
+<li>Test inside your home where you plan to place the router</li>
+<li>Test outside if you plan to use a recommended outdoor antenna to significantly strengthen your signal, connection, and speed</li>
+</ul>
+</div>
+
+<!-- Payment Options -->
+<div style="margin-bottom: 0;">
+<h4 style="margin-bottom: 0.75rem; color: #1C1F24;">💳 Payment & Refund Policy</h4>
+<p style="margin-bottom: 0.75rem; color: #666; line-height: 1.6;">
+<strong>Important:</strong> This service is prepaid only with limited payment options.
+</p>
+<ul style="margin-left: 1.5rem; margin-bottom: 0; color: #666; line-height: 1.8;">
+<li><strong>Prepaid only:</strong> Pay for 3 months ($150) or 1 year ($500) upfront</li>
+<li><strong>No monthly billing:</strong> You must renew at the end of your prepaid period</li>
+<li><strong>No refunds:</strong> All sales are final - make sure you test coverage first</li>
+</ul>
+</div>
+
+</div>
+</details>
+
+<!-- Calyx Plan Comparison -->
+<details open style="background: #fff; border: 2px solid #A7C7E7; border-radius: 8px; margin-bottom: 1.5rem; cursor: pointer;">
+<summary style="padding: 1.5rem; font-weight: 600; color: #1C1F24; font-size: 1.1rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s;">▶</span> 📦 Calyx Institute Membership Levels
+</summary>
+<div style="padding: 0 1.5rem 1.5rem 1.5rem; border-top: 1px solid #E5E7EB; margin-top: -0.5rem; padding-top: 1rem;">
+<p style="margin-bottom: 1rem; color: #666; line-height: 1.6;">
+Calyx offers three membership levels with unlimited T-Mobile data. Choose the one that best fits your needs:
+</p>
+
+<!-- Option 1: Franklin T10 / Contributor — NOT RECOMMENDED -->
+<details style="background: #FEF2F2; border-left: 4px solid #DC2626; margin-bottom: 1rem; border-radius: 4px;">
+<summary style="padding: 1rem; font-weight: 600; color: #1C1F24; font-size: 1rem; list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s; font-size: 0.8rem;">▶</span> Contributor - Franklin T10 Mobile Hotspot <span style="background:#DC2626;color:#fff;font-size:0.72rem;font-weight:700;padding:0.15rem 0.6rem;border-radius:100px;margin-left:0.5rem;">NOT RECOMMENDED</span>
+</summary>
+<div style="padding: 0 1rem 1rem 1rem; padding-top: 0.75rem;">
+<p style="background: #FEE2E2; padding: 0.75rem 1rem; border-radius: 6px; color: #991B1B; font-size: 0.92rem; line-height: 1.6; margin-bottom: 1rem;">
+<strong>We do not recommend this plan.</strong> The Franklin T10 is a 4G LTE-only device. Carriers are actively phasing out 4G infrastructure in favor of 5G, which means speeds will continue to decline over time and the device will eventually stop working altogether. Your account is also permanently tied to this hardware — you cannot switch to a different device later. Choose the Sprout (SIM-only) plan instead for better performance, future-proofing, and hardware flexibility.
+</p>
+</div>
+</details>
+
+<!-- Option 2: MiFi X PRO 5G / Sustainer -->
+<details style="background: #FFF9E6; border-left: 4px solid #F4A261; margin-bottom: 1rem; border-radius: 4px;">
+<summary style="padding: 1rem; font-weight: 600; color: #1C1F24; font-size: 1rem; list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s; font-size: 0.8rem;">▶</span> Sustainer - MiFi X PRO 5G Hotspot
+</summary>
+<div style="padding: 0 1rem 1rem 1rem; padding-top: 0.75rem;">
+<p style="margin-bottom: 0.75rem; color: #666; line-height: 1.6;">
+<strong>Pricing:</strong><br>
+• First year: $750/year ($62.50/mo)<br>
+• Renewal: $500/year ($41.67/mo)
+</p>
+<p style="margin-bottom: 0.5rem; color: #1C1F24; font-weight: 600; font-size: 0.95rem;">What's Included:</p>
+<ul style="margin-left: 1.5rem; color: #666; line-height: 1.7; font-size: 0.9rem; margin-bottom: 0.75rem;">
+<li>MiFi X PRO 5G mobile Wi-Fi hotspot</li>
+<li>2 Gbps max speed (5G/4G)</li>
+<li>Supports up to 32 connected devices</li>
+<li>WiFi 6 technology</li>
+<li>8 hours battery life</li>
+<li>Can be tethered via USB-C</li>
+<li>1 Gbps Ethernet port</li>
+<li>Can charge other devices</li>
+<li>Unlimited 5G/4G data</li>
+</ul>
+<p style="color: #666; line-height: 1.6; font-size: 0.9rem; font-style: italic; margin-bottom: 0.75rem;">
+<strong>Best for:</strong> Users who are okay with medium speeds and only have a few devices to connect. Better than the Franklin T10 with 5G support and more device capacity.
+</p>
+<p style="background: #FFF3CD; padding: 0.5rem; border-radius: 4px; color: #856404; font-size: 0.85rem; line-height: 1.5;">
+⚠️ <strong>Important:</strong> Your account is permanently tied to this device. You cannot switch to different hardware later. If you need flexibility to change routers, choose the SIM-only plan.
+</p>
+</div>
+</details>
+
+<!-- Option 3: Sprout BYOD SIM -->
+<details style="background: #E8F5E9; border-left: 4px solid #4CAF50; margin-bottom: 1rem; border-radius: 4px;">
+<summary style="padding: 1rem; font-weight: 600; color: #1C1F24; font-size: 1rem; list-style: none; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s; font-size: 0.8rem;">▶</span> Sprout BYOD - SIM Card Only <span style="color: #2E7D32; font-size: 0.85rem; font-weight: 600;">(Our Choice!)</span>
+</summary>
+<div style="padding: 0 1rem 1rem 1rem; padding-top: 0.75rem;">
+<p style="margin-bottom: 0.75rem; color: #666; line-height: 1.6;">
+<strong>Pricing:</strong><br>
+• $500/year ($41.67/mo) or $150/quarter ($50/mo)
+</p>
+<p style="margin-bottom: 0.5rem; color: #1C1F24; font-weight: 600; font-size: 0.95rem;">What's Included:</p>
+<ul style="margin-left: 1.5rem; color: #666; line-height: 1.7; font-size: 0.9rem; margin-bottom: 0.75rem;">
+<li>SIM card only - no device included</li>
+<li>Unlimited 5G/4G data</li>
+<li>Works with any compatible router</li>
+</ul>
+<p style="margin-bottom: 0.75rem; color: #666; line-height: 1.6; font-size: 0.9rem;">
+<strong>Best for:</strong> Users who want to use professional routers with external antenna support for maximum signal strength and performance.
+</p>
+<p style="margin-bottom: 0.5rem; color: #1C1F24; font-weight: 600; font-size: 0.95rem;">⭐ Recommended Compatible Routers:</p>
+
+<!-- GL-X3000 -->
+<div style="background: #F9FAFB; padding: 0.75rem; margin-bottom: 0.75rem; border-radius: 4px; border-left: 3px solid #2EA8FF;">
+<p style="margin-bottom: 0.25rem;"><strong><a href="https://amzn.to/3Q555K2" target="_blank" rel="noopener noreferrer" style="color: #2EA8FF; text-decoration: none;">GL-X3000 (Spitz AX)</a></strong></p>
+<p style="color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem;">5G cellular gateway with WiFi 6, detachable antennas, dual SIM, T-Mobile certified</p>
+<a href="https://amzn.to/3Q555K2" target="_blank" rel="noopener noreferrer" class="b" style="display: inline-block; font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+View on Amazon →
+</a>
+</div>
+
+<!-- GL-XE3000 -->
+<div style="background: #F9FAFB; padding: 0.75rem; margin-bottom: 0.75rem; border-radius: 4px; border-left: 3px solid #2EA8FF;">
+<p style="margin-bottom: 0.25rem;"><strong><a href="https://amzn.to/4qEN3Le" target="_blank" rel="noopener noreferrer" style="color: #2EA8FF; text-decoration: none;">GL-XE3000 (Puli AX)</a></strong></p>
+<p style="color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem;">5G router with WiFi 6, dual SIM, built-in battery, multi-WAN, VPN</p>
+<a href="https://amzn.to/4qEN3Le" target="_blank" rel="noopener noreferrer" class="b" style="display: inline-block; font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+View on Amazon →
+</a>
+</div>
+
+<!-- Peplink Multi-WAN -->
+<div style="background: #F9FAFB; padding: 0.75rem; margin-bottom: 0.75rem; border-radius: 4px; border-left: 3px solid #2EA8FF;">
+<p style="margin-bottom: 0.25rem;"><strong><a href="https://amzn.to/46aqqXV" target="_blank" rel="noopener noreferrer" style="color: #2EA8FF; text-decoration: none;">Peplink B One 5G</a></strong></p>
+<p style="color: #666; font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem;">5G dual WAN cellular router with WiFi 6, 1 Gbps throughput, 4 LAN ports, supports 150 users</p>
+<a href="https://amzn.to/46aqqXV" target="_blank" rel="noopener noreferrer" class="b" style="display: inline-block; font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+View on Amazon →
+</a>
+</div>
+<p style="background: #E8F5E9; padding: 0.5rem; border-radius: 4px; color: #2E7D32; font-size: 0.85rem; line-height: 1.5; margin-top: 0.75rem;">
+✓ <strong>Flexibility Advantage:</strong> With the SIM-only plan, you can switch between different routers anytime without changing your Calyx membership.
+</p>
+</div>
+</details>
+
+</div>
+</details>
+
+<!-- External Antenna Recommendation -->
+<details style="background: #fff; border: 2px solid #4CAF50; border-radius: 8px; margin-bottom: 1.5rem; cursor: pointer;">
+<summary style="padding: 1.5rem; font-weight: 600; color: #1C1F24; font-size: 1.1rem; list-style: none; display: flex; align-items: center; gap: 0.5rem;">
+<span style="transition: transform 0.2s;">▶</span> 📡 Boost Your Signal: External Antenna <span style="color: #666; font-size: 0.85rem; font-weight: 500;">(Sprout Plan Only)</span>
+</summary>
+<div style="padding: 0 1.5rem 1.5rem 1.5rem; border-top: 1px solid #E5E7EB; margin-top: -0.5rem; padding-top: 1rem;">
+<p style="margin-bottom: 1rem; color: #666; line-height: 1.6;">
+For the best performance, especially in areas with weak or moderate T-Mobile signal, we <strong>highly recommend</strong> installing an outdoor antenna:
+</p>
+<div style="background: #F5F7FA; padding: 1rem; border-radius: 4px; margin-bottom: 1rem;">
+<h5 style="margin-bottom: 0.5rem; color: #1C1F24;">Recommended: <a href="https://amzn.to/3OxiCcB" target="_blank" rel="noopener noreferrer" style="color: #2EA8FF; text-decoration: none;">Waveform QuadPro Antenna</a></h5>
+<ul style="margin-left: 1.5rem; color: #666; line-height: 1.7; font-size: 0.9rem;">
+<li>Professional-grade 4×4 MIMO outdoor antenna</li>
+<li>Dramatically improves signal strength and speeds</li>
+<li>Weather-resistant design for outdoor mounting</li>
+<li>Compatible with GL-X3000, GL-XE3000, and most cellular routers</li>
+<li>Includes mounting hardware and cables</li>
+</ul>
+<p style="margin-top: 0.75rem; margin-bottom: 0;">
+<a href="https://amzn.to/3OxiCcB" target="_blank" rel="noopener noreferrer" class="b" style="display: inline-block; font-size: 0.9rem; padding: 0.5rem 1rem;">
+View on Amazon →
+</a>
+</p>
+</div>
+<p style="color: #666; line-height: 1.6; font-size: 0.9rem; font-style: italic;">
+💡 <strong>Note:</strong> External antennas work best with the GL-X3000, GL-XE3000, or Peplink routers (SIM card only option). The included mobile hotspots may have limited or no external antenna support.
+</p>
+
+</div>
+</details>
+
+<!-- CTA Buttons -->
+<div style="text-align: center; margin-top: 2.5rem; padding-top: 2rem; border-top: 2px solid #F5F7FA;">
+<h3 style="margin-bottom: 1.5rem; color: #1C1F24;">Ready to Get Started?</h3>
+<p class="referral-note" style="font-size:0.95rem;padding:0.65rem 1rem;margin-bottom:1.25rem;">🎁 Use referral code <strong>ew7cb</strong> at signup to get a month free!</p>
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem;">
+<a href="support.html" class="b" style="display: inline-block; min-width: 200px; background: #F4A261;">
+Contact Us for Help
+</a>
+<a href="https://members.calyxinstitute.org/r/ew7cb" target="_blank" rel="noopener noreferrer" class="b" style="display: inline-block; min-width: 200px;">
+Order Now from Calyx
+</a>
+</div>
+<p style="font-size: 0.9rem; color: #999;">
+Have questions? We're here to help you make the right choice.<br>
+Email: <a href="/cdn-cgi/l/email-protection#11787f777e5177637474667067743f7e7f7d787f74" style="color: #2EA8FF; text-decoration: none;"><span class="__cf_email__" data-cfemail="c7aea9a1a887a1b5a2a2b0a6b1a2e9a8a9abaea9a2">[email&#160;protected]</span></a>
+</p>
+</div>
+
+</section>
+</div>
+
+<p style="font-size:0.82rem;color:#999;text-align:center;margin-top:1.5rem;max-width:800px;margin-left:auto;margin-right:auto;">
+  Some links on this page are referral or affiliate links. Freewave.Online may receive a commission at no extra cost to you. See our <a href="terms.html" style="color:#2EA8FF;">Terms</a> for details.
+</p>
+
+</main>
+
+<style>
+/* Arrow rotation for collapsible sections */
+details[open] > summary > span:first-child {
+  transform: rotate(90deg) !important;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary {
+  cursor: pointer;
+}
+</style>
+
+<footer>
+<p>© 2026 Freewave.Online. All rights reserved. | <a href="about.html">About</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact Us</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+function freewaveTurnstileOk() {}
+// Prevent Turnstile (or any script) from calling form.submit() and bypassing the JS listener
+document.querySelectorAll('form').forEach(function(f) {
+  if (f.querySelector('.cf-turnstile')) { f.submit = function() {}; }
+});
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9ef92ec838dcebe6',t:'MTc3Njc0MDg5MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
